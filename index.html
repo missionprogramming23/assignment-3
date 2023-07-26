@@ -20,23 +20,118 @@
 
 </head>
 
-<body>
+<body class="font-lato">
     
     <nav>
 
     </nav>
+    <!--banner section-->
+    <header class="container mx-auto">
+        <section class="container mx-auto">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="images/banner1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
 
-    <header>
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="/images/banner2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="/images/banner3.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="/images/banner4.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>    
+              </div>
 
+              <div class="absolute top-1 md:top-5 lg:top-10">
+
+                <div class="text-center ml-12 md:ml-40 lg:ml-72">
+
+                    <h1 class="text-white text-sm font-extrabold text-2xl md:text-5xl lg:text-7xl">
+                        Exotic tastes at your <br> doorstep
+                    </h1>
+
+                    <p class="text-white text-xs md:text-lg lg:text-lg">
+                        We supply highly quality organic products
+                    </p>
+
+                    <button class="btn bg-red-500 text-white">Shop Now</button>
+
+                </div>
+            </div>
+        </section>
     </header>
 
+    
     <main>
+        <!--bonus part 5pic-->
+        <section class="container absolute bottom-8">
+
+     <div class="grid md:grid-cols-3 lg:grid-cols-5 bg-white rounded-lg  mx-24 shadow-lg p-6">
+
+            <div class="w-full">
+                <img src="images/fruit1.png" alt="">
+
+                <p class="pl-8">
+                    Strawberry  
+                </p>
+            </div>
+            
+            <div class="w-full">
+                <img src="images/fruit2.png" alt="">
+                <p class="pl-8">
+                    Orange
+                </p>
+            </div>
+            
+            <div class="w-full">
+                <img src="images/fruit3.png" alt="">
+                <p class="pl-14">
+                    Mango
+                </p>
+            </div>
+           
+            <div class="w-full">
+                <img src="images/fruit4.png" alt="">
+                <p class="pl-12">
+                    Strawberry
+                </p>
+            </div>
+            
+            <div class="w-full">
+                <img src="images/fruit5.png" alt="">
+                <p class="pl-16">
+                    Mango
+                </p>
+    
+            </div>
+            
+        
+     </div>
+    </section>
 
     </main>
 
     <footer>
 
     </footer>
-    
+
 </body>
 </html>
