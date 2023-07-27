@@ -21,12 +21,26 @@
 </head>
 
 <body class="font-lato">
-    
-    <nav>
+    <div class="container pt-10 mx-auto px-28">
 
+    <nav class="flex text-white px-5 items-center justify-center justify-around rounded-full bg-orange-700 h-24">
+
+      <p>Home</p>
+      <p>About Us</p>
+      <p>Shop</p>
+      <p>All Fruits</p>
+
+    <div class="flex">
+      <img src="images/logo.png" alt="">
+      <h2 class="text-3xl font-bold ml-4 mt-3">Fruit Burst</h2>
+    </div>
+
+      <input type="text" placeholder="Search here" class="input input-bordered rounded-full w-full max-w-xs" />
     </nav>
+
+  </div>
     <!--banner section-->
-    <header class="container mx-auto px-5 lg:px-28">
+    <header class="container mx-auto mt-12 px-5 lg:px-28">
         <section class="container mx-auto">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
@@ -60,15 +74,15 @@
                 </div>    
               </div>
 
-              <div class="absolute top-1 md:top-5 lg:top-10">
+              <div class="absolute top-1 md:top-5 lg:top-60">
 
-                <div class="text-center ml-12 md:ml-40 lg:ml-72">
+                <div class="text-center ml-12 md:ml-40 lg:ml-56">
 
-                    <h1 class="text-white text-sm font-extrabold text-2xl md:text-5xl lg:text-7xl">
+                    <h1 class="text-white text-sm font-extrabold text-2xl md:text-5xl lg:text-7xl mb-3">
                         Exotic tastes at your <br> doorstep
                     </h1>
 
-                    <p class="text-white text-xs md:text-lg lg:text-lg">
+                    <p class="text-white text-xs md:text-lg lg:text-lg mb-8">
                         We supply highly quality organic products
                     </p>
 
@@ -179,7 +193,7 @@
                 <figure><img src="/images/fruit6.png" alt="Fruits" /></figure>
                 <div class="card-body">
                   <p>12.90$ - 18.85$</p>
-
+                  <hr>
                   
       <div>
         <p>
@@ -217,7 +231,7 @@
                 <div class="card-body">
                   <p>12.90$ - 18.85$</p>
 
-                    <br>
+                    <hr>
 
                   <div>
                     <p>
@@ -256,7 +270,7 @@
                 <div class="card-body">
                   <p>12.90$ - 18.85$</p>
 
-                    <br>
+                    <hr>
 
 
                     <div>
@@ -294,7 +308,7 @@
                 <figure><img src="/images/fruit9.png" alt="Fruits" /></figure>
                 <div class="card-body">
                     <p>12.90$ - 18.85$</p>
-                    <br>
+                    <hr>
                 
                   <div>
                     <p>
@@ -349,13 +363,14 @@
         <p class="text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
       </div>
        
-      <div class="grid text-white sticky gap-10 mt-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-60">
+      <div class="grid text-white sticky mt-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-40">
+
       <div>
         <img src="images/member1.png" alt="">
-        <h3 class="text-lg font-semibold">
+        <h3 class="text-lg font-bold">
           Awlad Hossain
         </h3>
-        <p class="lg:pl-4">
+        <p class="lg:pl-3">
           Fruits Expert
         </p>
       </div>
@@ -398,6 +413,8 @@
 
     </main>
 
+    <!--footer section-->
+
     <footer class="container mx-auto mt-44 footer footer-center bg-black text-primary-content">
       <div>
         <div class="flex mt-24 gap-5">
@@ -407,7 +424,7 @@
         </h2>
       </div>
 
-      <div class="grid grid-cols-3 lg:grid-cols-6 gap-2 my-10">
+      <div class="grid grid-cols- lg:grid-cols-6 gap-2 my-10">
         <p>Home</p>
         <p>About Us</p>
         <p>Shop</p>
